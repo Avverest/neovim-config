@@ -18,22 +18,22 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
-        -- Стандартные маппинги
-        ['<cr>'] = 'open', -- Enter для открытия файла/папки
-        ['l'] = 'open', -- 'l' для открытия
-        ['h'] = 'close_node', -- 'h' для закрытия папки
-        ['z'] = 'close_all_nodes', -- 'z' закрыть все подпапки
+          -- Стандартные маппинги
+          ['<cr>'] = 'open', -- Enter для открытия файла/папки
+          ['l'] = 'open', -- 'l' для открытия
+          ['h'] = 'close_node', -- 'h' для закрытия папки
+          ['z'] = 'close_all_nodes', -- 'z' закрыть все подпапки
 
-        -- Пользовательские маппинги
-        ['<C-t>'] = 'open_tabnew', -- Ctrl+t: открыть в новой вкладке
-        ['<C-f>'] = 'focus_preview', -- Ctrl+f: фокус на превью
-        ['<C-e>'] = 'close_window', -- Ctrl+e: закрыть neo-tree
-        ['R'] = 'refresh', -- R: обновить
-        ['a'] = 'add', -- a: создать файл/папку
-        ['d'] = 'delete', -- d: удалить
-        ['r'] = 'rename', -- r: переименовать
-        ['yy'] = 'copy_to_clipboard', -- yy: копировать
-        ['pp'] = 'paste_from_clipboard', -- pp: вставить
+          -- Пользовательские маппинги
+          ['<C-t>'] = 'open_tabnew', -- Ctrl+t: открыть в новой вкладке
+          ['<C-f>'] = 'focus_preview', -- Ctrl+f: фокус на превью
+          ['<C-e>'] = 'close_window', -- Ctrl+e: закрыть neo-tree
+          ['R'] = 'refresh', -- R: обновить
+          ['a'] = 'add', -- a: создать файл/папку
+          ['d'] = 'delete', -- d: удалить
+          ['r'] = 'rename', -- r: переименовать
+          ['yy'] = 'copy_to_clipboard', -- yy: копировать
+          ['pp'] = 'paste_from_clipboard', -- pp: вставить
         },
       },
     },
