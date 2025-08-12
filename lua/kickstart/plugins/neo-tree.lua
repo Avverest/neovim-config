@@ -14,10 +14,12 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    close_if_last_window = true,
     filesystem = {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+
           -- Стандартные маппинги
           ['<cr>'] = 'open', -- Enter для открытия файла/папки
           ['l'] = 'open', -- 'l' для открытия
@@ -34,6 +36,12 @@ return {
           ['r'] = 'rename', -- r: переименовать
           ['yy'] = 'copy_to_clipboard', -- yy: копировать
           ['pp'] = 'paste_from_clipboard', -- pp: вставить
+          ['P'] = {
+            'toggle_preview',
+            config = {
+              use_float = false,
+            },
+          },
         },
       },
     },
