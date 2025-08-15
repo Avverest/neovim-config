@@ -12,7 +12,7 @@ return {
   lazy = false,
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
-    { '|', ':Neotree buffers<CR>', desc = 'NeoTree buffers reveal', silent = true },
+    { '|', ':Neotree buffers<CR>', desc = 'NeoTree buffers reveal', silent = false },
   },
   opts = {
     filesystem = {
@@ -50,7 +50,7 @@ return {
         },
       },
       buffers = {
-        ['\\'] = 'close_window',
+        ['|'] = 'close_window',
         ['d'] = 'buffer_delete',
         ['bd'] = 'buffer_delete',
         ['<bs>'] = 'navigate_up',
