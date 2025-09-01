@@ -838,7 +838,7 @@ require('lazy').setup({
   --   config = function()
   --     ---@diagnostic disable-next-line: missing-fields
   --     require('tokyonight').setup {
-  --       transparent = false,
+  --       transparent = true,
   --       styles = {
   --         comments = { italic = false }, -- Disable italics in comments
   --       },
@@ -930,7 +930,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   require 'kickstart.plugins.autopairs',
-  require 'kickstart.plugins.neo-tree',
+  -- require 'kickstart.plugins.neo-tree',
 
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
