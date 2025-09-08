@@ -5,6 +5,7 @@ theme.rosepine = {
   name = 'rose-pine',
   config = function()
     require('rose-pine').setup {
+      transparent = true,
       highlight_groups = {
         Comments = { italic = false },
         Keywords = { italic = false },
@@ -62,4 +63,5 @@ theme.github = {
     vim.cmd 'colorscheme github_dark_dimmed'
   end,
 }
-return theme.rosepine
+-- return theme.rosepine
+return {}
